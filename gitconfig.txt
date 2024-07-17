@@ -37,3 +37,43 @@ Local Level Configuration Location:
 NOTE: The heirarchy of identify the username and email has follows,
       Git identifies the username and email first local level if exits it will take,
       If not then check at Global level, If it is not there finally it checks at System        Level.[D[D[D[D[3~[3~[3~[3~[3~[C[C[C[C[C[C[C[C[C[C[C
+Git Configuration file Locations:
+=================================
+
+--> System Level (Git Installation)
+  
+
+-->Global Level (User Account Level)
+  Location: users/kiran/.git/config
+
+--> Local Level (Repository/Project Level)
+  Location: repository/.git/config
+
+
+git config command:
+===================
+You can view and edit the Git Configuration settings using the git config command.
+
+---> git config --system --list
+
+List system level configuration settings.
+
+---> git config --global --list
+
+List global level configuration settings.
+
+---> git config --local --list
+
+List local level configuration settings.
+
+To add a username and email address in Git, you can use the following commands,
+
+1. Set your Username
+ 
+ git config --global user.name "yourname"
+
+2. Set your email address
+ git config --global user.email "your email ID"
+
+
+
