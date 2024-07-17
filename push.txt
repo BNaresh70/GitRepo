@@ -1,0 +1,34 @@
+To Push your local code to Central (GitHub)
+===========================================
+
+Steps:
+------
+Step1: Create a GitHub Repository:
+----------------------------------
+If you haven't already, create a new repository on GitHub.
+
+Step2: Initialize a Git repository in your local project folder:
+----------------------------------------------------------------
+Run the command as, git init in your terminal/command prompt.
+
+Step3: Add your files to Git Repository:
+----------------------------------------
+Run the command as , git add . (or) git add filename
+
+Step4: Commit your changes:
+----------------------------
+Run the command as, git commit -m "commit message"
+
+Step5: Link your Local repository to GitHub:
+----------------------------------------------
+Run the command as, git remote add origin <GitHub repo URL>
+
+Step6: Push your changes to GitHub:
+-----------------------------------
+Run the command as, git push -u origin master
+
+NOTE:
+-----
+ Here -u ---> sets the upstream tracking information.
+  origin ---> Is the default name for the remote repository. 
+  master ---> Is the default branch name. 
