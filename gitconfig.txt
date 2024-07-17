@@ -1,0 +1,12 @@
+GIT Configuration
+==================
+Once GIT Installation done in our System,
+
+-> The first thing we need to do is set our username and the email address.
+
+-> This is because when we use git to change the files in the project.
+Git uses this information to identify who has made the changes to the file.
+
+-> The command to add the username and address is Git Config.
+
+Git uses a Series of configuration files to determine the Behaviour.
